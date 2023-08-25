@@ -1,0 +1,74 @@
+/*RESET*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  margin: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#header_menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu_container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+#menu_container ul li {
+  border-right: 1px solid #8a8a8a;
+  padding: 0px 8px
+}
+
+#menu_container ul li:last-child {
+  border-right: none;
+}
+
+.cursos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cursos ul li {
+  list-style: square;
+  margin-left: 24px;
+}
+
+.eventos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.biblioteca {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#footer .icones {
+  display: flex;
+  gap: 16px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Eventos</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <header id="header_menu">
+    <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/Logo.jpg">
+    <nav id="menu_container"></nav>
+  </header>
+  
+  <div id="menu_container"></div>
+  <form style="border: 1px solid black; padding:5px;">
+    Evento:
+    <select name="evento">
+      <option value="--Selecione--">--Selecione--</option>
+      <option value="Voe sem asas">Voe sem asas</option>
+      <option value="Festa junina">Festa junina</option>
+      <option value="Semana da tecnologia">Semana da tecnologia</option>
+      <br>
+      <br>
+    </select>
+  </form>
+  <form style="border: 1px solid black; padding:5px;">
+    <br>
+    Informação de Acesso:
+    <br>
+    <br>
+    <label for="input_username">Usuário</label>
+    <input type="username" name="username" id="input_username" />
+    <br>
+    <br>
+    <label for="input_password">Password</label>
+    <input type="password" name="password" id="input_password" />
+    <br>
+    <br>
+    <label for="input_password">Confirme a Senha</label>
+    <input type="password" name="password" id="input_password" />
+    <br>
+    <br>
+  </form>
+  <form style="border: 1px solid black; padding:5px;">
+    Informação Pessoais:
+    <br>
+    <br>
+    <label for="input_name">Nome completo</label>
+    <input type="name" name="name" id="input_name" />
+    <br>
+    <br>
+    <label for="input_email">E-mail</label>
+    <input type="email" name="email" id="input_email" />
+    <br>
+    <br>
+    <label for="input_tel">Celular</label>
+    <input type="tel" name="tel" id="input_tel" />(99)99999-9999
+    <br>
+    <br>
+    Sexo<br>
+    <input type="radio" value="masculino" name="sexo">Masculino
+    <input type="radio" value="feminino" name="sexo">Feminino
+    <br>
+    <br>
+    Data de Nascimento
+    <input type="date">
+    <br>
+    <br>
+    Cor favorita
+    <input type="color">
+    <br>
+    <br>
+    Perfil no Github
+    <input type="url">
+  </form>
+  <br>
+  
+  <button>Inscrever</button>
+  <button>Limpar</button>
+
+  <footer id="footer">
+    <span class="icones">
+      <!-- Move to Top -->
+      <a href="#top">
+        <img src="https://github.com/DWBA4/dwba4_semana_imagens/blob/master/MoveTop.png?raw=true" width="32px">
+      </a>
+
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/ifsppirituba">
+        <img src="https://github.com/DWBA4/dwba4_semana_imagens/blob/master/facebook.png?raw=true" width="32px">
+      </a>
+    </span>
+
+    <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011)
+      2504-0100</p>
+  </footer>
+  
+  <!-- Utilizado para carregar o Menu.html na página -->
+  <script src="script.js"></script>
+</body>
+
+</html>
