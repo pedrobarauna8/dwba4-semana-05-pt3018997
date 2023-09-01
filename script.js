@@ -1,3 +1,4 @@
+
 function inserirMenu() {
   fetch('Menu.html')
     .then(response => response.text())
